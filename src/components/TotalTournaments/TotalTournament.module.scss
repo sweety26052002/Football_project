@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .text {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120px; /* 300% */
+    text-transform: uppercase;
+  }
+
+  a {
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-decoration: underline;
+    min-width: 80px;
+  }
+}
+.viewMore{
+  font-family: "Nunito", sans-serif;
+}

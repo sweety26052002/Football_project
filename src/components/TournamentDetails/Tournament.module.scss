@@ -1,0 +1,147 @@
+.container {
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+.homeImage {
+  height: 100%;
+  width: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__textright {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 1030px;
+    top: 661px;
+    width: 850px;
+    height: 352px;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 136px;
+    letter-spacing: 0em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  &__textleft {
+    position: absolute;
+    left: 190px;
+    top: 211px;
+    min-width: 300px;
+    max-width: 750px;
+    color: #e8e3e3;
+  }
+}
+.textStyle {
+  border: 2px;
+  font-weight: 900;
+  letter-spacing: 0em;
+  font-family: "Nunito", sans-serif;
+  font-size: 100px;
+  line-height: 136.4px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 470px;
+}
+.rightTextFirstLine {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  height: 50%;
+  padding-left: 30px;
+  justify-content: space-around;
+}
+
+.backButton {
+  position: absolute;
+  top: 117.29px;
+  left: 31px;
+  display: flex;
+  cursor: pointer;
+}
+.buttonText {
+  font-family: "Nunito", sans-serif;
+  font-size: 32px;
+  color: black;
+  -webkit-text-stroke-width: 0.6px;
+  -webkit-text-stroke-color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 100%;
+  }
+
+  .homeImage {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .homeImage__textright {
+    position: absolute;
+    left: 780px;
+    top: 432px;
+    width: 533px;
+    height: 222px;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+  }
+
+  .homeImage__textleft {
+    position: absolute;
+    left: 100px;
+    top: 131px;
+    width: 300px;
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    color: #ffffff;
+  }
+
+  .textStyle {
+    font-size: 100px;
+    width: 352px;
+    font-weight: 800;
+  }
+
+  .rightTextFirstLine {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    height: 50%;
+    padding-left: 20px;
+    justify-content: space-around;
+  }
+
+  .backButton {
+    position: absolute;
+    top: 108px;
+    left: 31px;
+  }
+
+  .buttonText {
+    font-family: "Nunito", sans-serif;
+    font-size: 34px;
+    color: black;
+  }
+}
+.tournamentNamefont {
+  font-family: "Nunito", sans-serif;
+}

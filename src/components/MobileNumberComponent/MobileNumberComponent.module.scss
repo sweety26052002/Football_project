@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.fieldContainer {
+  display: flex;
+  flex-direction: row;
+  width: 359px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.selectField {
+  width: 80px;
+  border-right: 1px solid #ccc;
+  background: #fff;
+}
+
+.inputField {
+  flex-grow: 1;
+}
+
+.label {
+  color: #4d6581;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}

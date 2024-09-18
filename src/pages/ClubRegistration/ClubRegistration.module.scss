@@ -1,0 +1,217 @@
+.ClubRegistrationContainer {
+  margin-top: 100px;
+  padding: 0 60px;
+
+}
+.stepperContainer {
+  margin-top: 35px;
+}
+.heading {
+  color: #101c2d;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subHeading {
+  margin-top: 34px;
+  color: #101c2d;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.subHeading2 {
+  color: #101c2d;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 187.5% */
+}
+.container{
+  margin-top: 2%;
+}
+
+.containerLevelOne,
+.licenseContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: relative;
+}
+.rightContainerTopStack {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.mobileNumberContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.licenseContainer,
+.registeredAddressContainer {
+  flex-direction: column;
+  position: relative;
+}
+
+.licenseFieldContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.licenseContainer {
+  h6 {
+    color: #4d6581;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    margin-top: 40px;
+  }
+}
+
+.stadiumContainer {
+  position: relative;
+  display: inline-flex;
+  padding: 16px 26px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 10px;
+  border: 1px solid #c9c9c9;
+  margin: 40px 0;
+  .removeStadiumButtonContainer {
+    position: absolute;
+    right: -220px;
+    top: 30%;
+    background: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    color: red;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    cursor: pointer;
+  }
+  .addMoreStadiumsButtonContainer {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    background: transparent;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    color: #415ce0;
+    font-size: 14px;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    cursor: pointer;
+  }
+  .addMoreCoachesButtonContainer {
+    right: 10%;
+    top: 57%;
+  }
+  .removeCoachButtonContainer {
+    top: 50%;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 32px;
+  padding-right: 50px;
+  .backButtonContainer,
+  .nextButtonContainer {
+    color: #101c2d !important;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    line-height: 16px; /* 114.286% */
+    background: #fff;
+    padding: 10px 12px;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .nextButtonContainer {
+    background-color: #415ce0;
+    color: #fff !important;
+  }
+}
+
+.coachImageContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.optionalSectionContainer {
+  flex-direction: column;
+}
+.registrationInformation{
+  display:flex ;
+  width:322px;
+  height:35px;
+  justify-content: space-between;
+}
+hr.clubInformation{
+  border: 5px solid #D9D9D9;
+  color:#4D6581 ;
+  border-radius: 5px;
+}
+hr.additionalInformation{
+  color:#4D6581 ;
+  border: 5px solid #415CE0;
+  border-radius: 5px;
+}
+.stepsColor{
+  padding-left: 53px;
+  color:#4D6581 ;
+}
+.detailsFilled{
+  color:#4D6581 ;
+  border: 5px solid #A1D777;
+
+  border-radius: 5px;
+}
+.infomationHeadingColor{
+  color:#4D6581 ;
+}

@@ -1,0 +1,62 @@
+.clubFields {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+
+    &__viewmore {
+      color:#415CE0 ;
+      padding-top: 7%;
+      font-family: "Nunito", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 20px;
+      text-decoration: underline;
+    }
+  }
+  &__cards {
+    display: flex;
+    gap: 24px;
+  }
+
+  @media (max-width: 1366px) {
+    gap: 40px;
+
+    &__heading {
+      &__viewmore {
+        font-size: 20px;
+      }
+    }
+    &__cards {
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    gap: 30px;
+
+    &__heading {
+      &__viewmore {
+        font-size: 18px;
+      }
+    }
+    &__cards {
+      gap: 16px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    gap: 20px;
+
+    &__heading {
+      &__viewmore {
+        font-size: 16px;
+      }
+    }
+    &__cards {
+      gap: 12px;
+    }
+  }
+}

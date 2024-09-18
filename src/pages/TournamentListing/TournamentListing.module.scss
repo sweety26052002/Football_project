@@ -1,0 +1,29 @@
+.clubsList {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  .heading {
+    padding-left: 68.62px;
+  }
+  .clubsListImage {
+    width: 100%;
+    height: 687.59px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .clubsListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 126px;
+    .cardsContainer {
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 64px;
+      padding: 0 156px;
+    }
+  }
+}

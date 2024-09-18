@@ -1,0 +1,51 @@
+.RegistrationBox {
+  font-family: "Nunito", sans-serif;
+  background-image: url("../../assets/RegistrationBoxImage.svg");
+  height: 186px;
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
+
+  &__part1 {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__part1__headings {
+    color: white;
+    padding-top: 10px;
+    &__heading {
+      font-family: "Nunito", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+    &__subheading {
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  &__Button {
+  }
+
+  &__Button__registrationButton {
+    font-family: "Nunito", sans-serif;
+    border-radius: 1600px;
+    width: 199px;
+    height: 54px;
+    color: azure;
+    background-color: grey;
+
+    &:hover {
+      color: white;
+      background-color: grey;
+    }
+  }
+}

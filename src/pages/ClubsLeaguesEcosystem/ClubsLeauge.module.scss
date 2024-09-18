@@ -1,0 +1,17 @@
+.clubsLeague{
+    margin-top: 60px;
+    display: flex;
+    gap:50px;
+    flex-direction: column;
+}
+.Image{
+    width: 100vw;
+    height: 687.59px;
+    border: 1px solid;
+    img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+
+    }
+}

@@ -1,0 +1,64 @@
+.clubs{
+    display: flex;
+    flex-direction: column;
+
+}
+.clubsChart {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 0vw 5vw 5vw 5vw ;
+}
+.table {
+  width: 807px;
+}
+.teamContainer {
+    display: flex;
+    align-items: center;
+  }
+  .clubsChartHeading{
+padding-left: 176px;
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+font-family: "Nunito", sans-serif;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .teamColor {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+.tableHead {
+  background-color: #fbeb5c;
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.tableBody {
+color: red;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media screen and (max-width:1400px){
+
+  .clubsChartHeading{
+    padding-left: 50px;
+  }
+  .clubsChart {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 5vw 5vw 5vw ;
+  }
+}

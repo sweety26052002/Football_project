@@ -1,0 +1,34 @@
+.heading{
+    padding-left: 165px;
+}
+.subHeading{
+    font-family: "Nunito", sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 176.24px;
+padding-top: 30px;
+}
+.barGraph{
+padding-left: 60px;
+gap: 50px;
+margin-top: 20px;
+}
+.MuiChartsAxis-root.MuiChartsAxis-directionY.MuiChartsAxis-left {
+    display: none;
+  }
+  @media screen and (max-width:1400px){
+
+    .barGraph{
+       padding-left: 100px;
+    }
+
+    .heading{
+        padding-left: 50px;
+    }
+    .subHeading{
+        padding-left: 50px;
+    }
+  }

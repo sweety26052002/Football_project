@@ -1,0 +1,253 @@
+.card {
+ 
+  width: 342px;
+  height: 100%;
+  border-radius: 8px;
+  gap: 1px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: -9px 13px 47px -14px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -9px 13px 47px -14px rgba(0, 0, 0, 0.37);
+  box-shadow: -9px 13px 47px -14px rgba(0, 0, 0, 0.37);
+}
+.academyIcon {
+  width: 13.51px;
+  height: 17.32px;
+}
+.certification {
+   font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.academyTag {
+  display: flex;
+  gap: 2px;
+  background-color: #415ce0;
+  color: #fff;
+  width: (106.51px);
+  padding: 6px;
+  border-top-left-radius: 8px;
+}
+.clubImage {
+  //   width: 205.72px;
+  height: 206.49px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.yearsTag {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.star {
+  background-color: #415ce0;
+  padding: 3px;
+  padding-left: 7px;
+  padding-top: 4px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.years {
+   font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  padding-right: 8px;
+  background-color: #415ce0;
+  color: #fff;
+}
+
+.part2 {
+  background-color: #415ce0;
+  color: #fff;
+
+  display: flex;
+  height: 157px;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.cardTitle {
+   font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardDescription {
+   font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.address {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+  top: 120px;
+  align-items: center;
+}
+.eachAddress {
+  display: flex;
+  gap: 5px;
+}
+.eachAddressTexts {
+   font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+
+@media (max-width: 1366px) {
+  .card {
+    width: 300px;
+  }
+  .academyIcon {
+    width: 12px;
+    height: 16px;
+  }
+  .certification {
+    font-size: 11px;
+  }
+  .academyTag {
+    width: 100px;
+    padding: 5px;
+  }
+  .clubImage {
+    height: 190px;
+  }
+  .years {
+    font-size: 13px;
+  }
+  .part2 {
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .cardTitle {
+    font-size: 15px;
+  }
+  .cardDescription {
+    font-size: 13px;
+  }
+  .eachAddressTexts {
+    font-size: 13px;
+  }
+  .cards {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 280px;
+  }
+  .academyIcon {
+    width: 11px;
+    height: 15px;
+  }
+  .certification {
+    font-size: 10px;
+  }
+  .academyTag {
+    width: 90px;
+    padding: 4px;
+  }
+  .clubImage {
+    height: 180px;
+  }
+  .years {
+    font-size: 12px;
+  }
+  .part2 {
+    height: 140px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .cardTitle {
+    font-size: 14px;
+  }
+  .cardDescription {
+    font-size: 12px;
+  }
+  .eachAddressTexts {
+    font-size: 12px;
+  }
+  .cards {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 260px;
+  }
+  .academyIcon {
+    width: 10px;
+    height: 14px;
+  }
+  .certification {
+    font-size: 9px;
+  }
+  .academyTag {
+    width: 80px;
+    padding: 3px;
+  }
+  .clubImage {
+    height: 170px;
+  }
+  .years {
+    font-size: 11px;
+  }
+  .part2 {
+    height: 130px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .cardTitle {
+    font-size: 13px;
+  }
+  .cardDescription {
+    font-size: 11px;
+  }
+  .eachAddressTexts {
+    font-size: 11px;
+  }
+  .cards {
+    gap: 50px;
+  }
+}

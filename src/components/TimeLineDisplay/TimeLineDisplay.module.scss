@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85vw;
+  margin: 0 auto;
+}
+.timeline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.followUpButton {
+  font-family: "Nunito", sans-serif;
+  -webkit-box-shadow: -9px 13px 47px -14px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -9px 13px 47px -14px rgba(0, 0, 0, 0.37);
+  box-shadow: -9px 13px 47px -14px rgba(0, 0, 0, 0.37);
+  position: relative;
+  display: inline-flex;
+  padding: 10px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: #fff;
+  margin-bottom: 40px;
+  button {
+    background: transparent;
+  }
+}
+.followUpButton::before {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  width: 2px;
+  height: 40px;
+  border-left: 2px dashed gray;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    width: 90vw;
+  }
+  .followUpButton {
+    padding: 8px 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 95vw;
+  }
+  .followUpButton {
+    padding: 6px 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100vw;
+  }
+  .followUpButton {
+    padding: 4px 20px;
+    margin-bottom: 10px;
+  }
+  .followUpButton::before {
+    height: 10px;
+  }
+}
+.beginButton{
+  border: none !important;
+  outline: none !important;
+}

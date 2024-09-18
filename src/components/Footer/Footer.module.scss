@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  background: #415ce0;
+  height: 100px;
+  margin-top: 0px;
+  .newsletter {
+    display: flex;
+    font-family: "Nunito", sans-serif;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 3px;
+    align-items: center;
+    justify-content: center;
+    .heading {
+      color: #fff;
+      font-family: "Nunito", sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .subHeading {
+      color: #fff;
+        font-family: "Nunito", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration-line: underline;
+    }
+  }
+  .allRights {
+    color: #fff;
+      font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .emailContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    .email {
+      color: #fff;
+        font-family: "Nunito", sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  .socialMedia {
+    .heading {
+      font-family: "Nunito", sans-serif;
+      margin-top: -6px;
+    }
+  }
+}
+.headingFor{
+  display: none;
+}
+
+@media (max-width: 1367px) {
+    #status{
+      display: none
+    }
+    .container{
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      gap:40px;
+    }
+    .headingFor{
+      display: inline;
+      color: #fff;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    #headerNone{
+      display: none;
+    }
+}
+

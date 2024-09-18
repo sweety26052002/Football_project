@@ -1,0 +1,54 @@
+.container {
+  background: #f1f1f1;
+  height: 100vh;
+  width: 144px;
+  left: 0;
+  transition: width 0.5s;
+}
+
+.sideNavList {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 20px 0 0 12px;
+}
+
+.sideNavListItem {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sideNavListItem a {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sideNavListItemText {
+  transition: 0.5s;
+}
+.sideNavListItem svg {
+  width: 20px;
+  height: 20px;
+}
+
+.containerClosed {
+  width: 44px;
+}
+
+.sideNavListItemTextClosed {
+  visibility: hidden;
+  opacity: 0;
+}
+.toggleButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

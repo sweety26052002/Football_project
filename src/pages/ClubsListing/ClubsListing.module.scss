@@ -1,0 +1,84 @@
+.clubsList {
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  .heading {
+    padding-left: 68.62px;
+  }
+  .clubsListImage {
+    width: 100%;
+    height: 687.59px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .clubsListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    .cardsContainer {
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 64px;
+      padding: 0 156px;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .clubsList {
+    .heading {
+      padding-left: 50px;
+    }
+    .clubsListImage {
+      height: 550px;
+    }
+    .clubsListContainer {
+      gap: 60px;
+      .cardsContainer {
+        gap: 50px;
+        padding: 0 130px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .clubsList {
+    .heading {
+      padding-left: 40px;
+    }
+    .clubsListImage {
+      height: 450px;
+    }
+    .clubsListContainer {
+      gap: 50px;
+      .cardsContainer {
+        gap: 40px;
+        padding: 0 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .clubsList {
+    .heading {
+      padding-left: 30px;
+    }
+    .clubsListImage {
+      height: 350px;
+    }
+    .clubsListContainer {
+      gap: 40px;
+      .cardsContainer {
+        gap: 30px;
+        padding: 0 70px;
+      }
+    }
+  }
+}
